@@ -50,7 +50,7 @@ app.post("/add-vol", async (request, response) => {
 
 })
 
-app.get("/view-vol", async (request, response) => {
+app.post("/view-vol", async (request, response) => {
 
     const Volunteers = await Volunteer.find()
 
